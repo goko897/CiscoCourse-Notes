@@ -1,0 +1,54 @@
+Cybersecurity is the ongoing effort to protect individuals, organizations and governments from digital attacks by protecting networked systems and data from unauthorized use or harm.
+
+Some other useful tips to help you generate your username:
+
+Don’t use your full name or parts of your address or phone number.
+Don’t use your email username.
+Don’t use the same username and password combination, especially on financial accounts.
+Don’t choose a super-odd username and then reuse it again and again — it makes you easier to track.
+Don’t choose a username that gives clues to your passwords such as a series of numbers/letters, the first part of a two-part phrase, such as knock-knock or starlight, or the department in which you work, such as IT.
+Do choose a username that’s appropriate for the type of account, i.e., business, social or personal.\
+
+Types of Organizational Data
+1) Traditional data is typically generated and maintained by all organizations, big and small. It includes the following:
+
+Transactional data such as details relating to buying and selling, production activities and basic organizational operations such as any information used to make employment decisions.
+Intellectual property such as patents, trademarks and new product plans, which allows an organization to gain economic advantage over its competitors. This information is often considered a trade secret and losing it could prove disastrous for the future of a company.
+Financial data such as income statements, balance sheets and cash flow statements, which provide insight into the health of a company.
+
+2) Internet of Things (IoT) and Big Data
+IoT is a large network of physical objects, such as sensors, software and other equipment. All of these ‘things’ are connected to the Internet, with the ability to collect and share data. And given that storage options are expanding through the cloud and virtualization, it’s no surprise that the emergence of IoT has led to an exponential growth in data, creating a new area of interest in technology and business called 'Big Data.'
+
+
+->McCumber Cube 
+It is a model framework created by John McCumber in 1991 to help organizations establish and evaluate information security initiatives by considering all of the related factors that impact them. This security model has three dimensions:
+1.The foundational principles for protecting information systems.
+2.The protection of information in each of its possible states.
+3.The security measures used to protect data.
+
+FOUNDATIONAL PRINCIPLES TO STORE DATA:
+Confidentiality is a set of rules that prevents sensitive information from being disclosed to unauthorized people, resources and processes. Methods to ensure confidentiality include data encryption, identity proofing and two factor authentication.
+
+Integrity ensures that system information or processes are protected from intentional or accidental modification. One way to ensure integrity is to use a hash function or checksum.
+
+Availability means that authorized users are able to access systems and data when and where needed and those that do not meet established conditions, are not. This can be achieved by maintaining equipment, performing hardware repairs, keeping operating systems and software up to date, and creating backups.
+
+PROTECTION ODF INFORMATION AT EACH STATE:
+Processing refers to data that is being used to perform an operation such as updating a database record (data in process).
+
+Storage refers to data stored in memory or on a permanent storage device such as a hard drive, solid-state drive or USB drive (data at rest).
+
+Transmission refers to data traveling between information systems (data in transit).
+
+SECURITY MEASURES TO STORE DATA:
+Awareness, training and education are the measures put in place by an organization to ensure that users are knowledgeable about potential security threats and the actions they can take to protect information systems.
+
+Technology refers to the software- and hardware-based solutions designed to protect information systems such as firewalls, which continuously monitor your network in search of possible malicious incidents.
+
+Policy and procedure refers to the administrative controls that provide a foundation for how an organization implements information assurance, such as incident response plans and best practice guidelines.
+
+
+->Types of Hackers
+White hat attackers break into networks or computer systems to identify any weaknesses so that the security of a system or network can be improved. These break-ins are done with prior permission and any results are reported back to the owner.
+Gray hat attackers may set out to find vulnerabilities in a system but they will only report their findings to the owners of a system if doing so coincides with their agenda. Or they might even publish details about the vulnerability on the internet so that other attackers can exploit it.
+Black hat attackers take advantage of any vulnerability for illegal personal, financial or political gain.

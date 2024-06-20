@@ -52,3 +52,42 @@ Policy and procedure refers to the administrative controls that provide a founda
 White hat attackers break into networks or computer systems to identify any weaknesses so that the security of a system or network can be improved. These break-ins are done with prior permission and any results are reported back to the owner.
 Gray hat attackers may set out to find vulnerabilities in a system but they will only report their findings to the owners of a system if doing so coincides with their agenda. Or they might even publish details about the vulnerability on the internet so that other attackers can exploit it.
 Black hat attackers take advantage of any vulnerability for illegal personal, financial or political gain.
+
+->Organized hackers
+These attackers include organizations of cyber criminals, hacktivists, terrorists and state-sponsored hackers. They are usually highly sophisticated and organized, and may even provide cybercrime as a service to other criminals.
+
+Hacktivists make political statements to create awareness about issues that are important to them.
+
+State-sponsored attackers gather intelligence or commit sabotage on behalf of their government. They are usually highly trained and well-funded and their attacks are focused on specific goals that are beneficial to their government.
+
+->Cyberwarfare, as its name suggests, is the use of technology to penetrate and attack another nation’s computer systems and networks in an effort to cause damage or disrupt services, such as shutting down a power grid.
+
+One example of a state-sponsored attack involved the Stuxnet malware that was designed not just to hijack targeted computers but to actually cause physical damage to equipment controlled by computers!
+case of Iran 
+
+
+CYBERATTACKS
+
+malware:  Malware is any code that can be used to steal data, bypass access controls, or cause harm to or compromise a system. Knowing what the different types are and how they spread is key to containing and removing them.
+spyware: esigned to track and spy on you, spyware monitors your online activity and can log every key you press on your keyboard, as well as capture almost any of your data, including sensitive personal information such as your online banking details. Spyware does this by modifying the security settings on your devices. ---  budles itself in trojan or software 
+adware: Adware is often installed with some versions of software and is designed to automatically deliver advertisements to a user, most often on a web browser.
+backdoor: This type of malware is used to gain unauthorized access by bypassing the normal authentication procedures to access a system. 
+ransomware: This malware is designed to hold a computer system or the data it contains captive until a payment is made. Ransomware usually works by encrypting your data so that you can’t access it.
+scareware: This is a type of malware that uses 'scare’ tactics to trick you into taking a specific action. Scareware mainly consists of operating system style windows that pop up to warn you that your system is at risk and needs to run a specific program for it to return to normal operation.
+rootkit: This malware is designed to modify the operating system to create a backdoor, which attackers can then use to access your computer remotely
+virus: A virus is a type of computer program that, when executed, replicates and attaches itself to other executable files, such as a document, by inserting its own code. Most viruses require end-user interaction to initiate activation and can be written to act on a specific date or time.
+trojan: This malware carries out malicious operations by masking its true intent. It might appear legitimate but is, in fact, very dangerous. Trojans exploit your user privileges and are most often found in image files, audio files or games.
+
+
+
+Regardless of the type of malware a system has been infected with, there are some common symptoms to look out for. These include:
+• an increase in central processing unit (CPU) usage, which slows down your device
+• your computer freezing or crashing often
+• a decrease in your web browsing speed
+• unexplainable problems with your network connections
+• modified or deleted files
+• the presence of unknown files, programs or desktop icons
+• unknown processes running
+• programs turning off or reconfiguring themselves
+• emails being sent without your knowledge or consent.
+

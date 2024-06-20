@@ -171,3 +171,78 @@ Access control is the process of controlling who does what and ranges from manag
 You should use at least one type of firewall (either a software firewall or a hardware firewall on a router) to protect your device from unauthorized access. The firewall should be turned on and constantly updated to prevent hackers from accessing your personal or organization data.
 2) antivirus and antispyware:
 Malicious software, such as viruses and spyware, are designed to gain unauthorized access to your computer and your data. Once installed, viruses can destroy your data and slow down your computer. They can even take over your computer and broadcast spam emails using your account. Spyware can monitor your online activities, collect your personal information or produce unwanted pop-up ads on your web browser while you are online.
+
+
+->Cisco products:
+
+That's not right.
+@Apollo has the following security appliances in place:
+⚫ Cisco Integrated Services Router (ISR) 4000. These routers have many capabilities, including traffic filtering, the ability to run an intrusion prevention system (IPS), encryption and VPN capabilities for secure encrypted tunneling.
+• Cisco's Firepower 4100 Series is a next generation firewall that has all the capabilities of an ISR router, as well as advanced network management and analytics. It can help you to see what's happening on the network so that you can detect attacks earlier.
+• Cisco's AnyConnect Secure Mobility Client is a VPN system that lets remote workers use a secure encrypted tunnel from their mobile computer to securely connect back to the organization's network. All Cisco security appliances are equipped with a VPN server and client technology, designed for secure encrypted tunneling.
+• Cisco's Advanced Malware Protection (AMP) is installed in next generation Cisco routers, firewalls, IPS devices and web and email security appliances. It can also be installed as software in host computers.
+Go back, reset and try again. Remember, there are valuable defender points up for grabs!
+
+-> firewall:
+a firewall is designed to control or filter which communications are allowed in and which are allowed out of a device or network. A firewall can be installed on a single computer with the purpose of protecting that one computer (host-based firewall) or it can be a standalone network device that protects an entire network of computers and all of the host devices on that network (network-based firewall).
+
+1) network layer firewall:
+filters communications based on src n dest IP
+2) Transport layer protocol:
+source and destination data ports, as well as connection states
+3) application layer firewall:
+Filters communications based on an application, program or service
+4) context aware layer:
+Filters communications based on the user, device, role, application type and threat profile.
+5) proxy server: 
+filters web content requests like URLS,domain names and media types.
+6) reverse proxy server;
+Placed in front of web servers, reverse proxy servers protect, hide, offload and distribute access to web servers
+7) network address translation firewall:
+This firewall hides or masquerades the private addresses of network hosts.
+8) host baes firewall:
+Filters ports and system service calls on a single computer operating system.
+
+->portscanning: Port scanning is a process of probing a computer, server or other network host for open ports. It can be used maliciously as a reconnaissance tool to identify the operating system and services running on a computer or host, or it can be used harmlessly by a network administrator to verify network security policies on the network.
+
+-> behavior-based 
+1) honeypots: lures the attacker in by appeaing to their predicted pattern of malicious behaviour.
+2) Cisco's cyber threat defense solution architeure:
+
+netflow: about data flowing through a network, including who and what devices are in the network, and when and how users and devices access the network.
+NetFlow is an important component in behavior-based detection and analysis. Switches, routers and firewalls equipped with NetFlow can report information about data entering, leaving and traveling through the network. 
+
+-> pentesting 
+Penetration testing, commonly known as pen testing, is the act of assessing a computer system, network or organization for security vulnerabilities. A pen test seeks to breach systems, people, processes and code to uncover vulnerabilities which could be exploited. This information is then used to improve the system’s defenses to ensure that it is better able to withstand cyber attacks in the future.
+  1) planning: The pen tester gathers as much information as possible about a target system or network, its potential vulnerabilities and exploits to use against it. This involves conducting passive or active reconnaissance (footprinting) and vulnerability research.
+  2) scanning: 
+The pen tester carries out active reconnaissance to probe a target system or network and identify potential weaknesses which, if exploited, could give an attacker access. Active reconnaissance may include:
+port scanning to identify potential access points into a target system
+vulnerability scanning to identify potential exploitable vulnerabilities of a particular target
+establishing an active connection to a target (enumeration) to identify the user account, system account and admin account.
+  3) gaining access:
+The pen tester will attempt to gain access to a target system and sniff network traffic, using various methods to exploit the system including:
+launching an exploit with a payload onto the system
+breaching physical barriers to assets
+social engineering
+exploiting website vulnerabilities
+exploiting software and hardware vulnerabilities or misconfigurations
+breaching access controls security
+cracking weak encrypted Wi-Fi.
+  4) maintaining access:
+The pen tester will maintain access to the target to find out what data and systems are vulnerable to exploitation. It is important that they remain undetected, typically using backdoors, Trojan horses, rootkits and other covert channels to hide their presence.
+When this infrastructure is in place, the pen tester will then proceed to gather the data that they consider valuable.
+  5) analysis and reporting:
+The pen tester will provide feedback via a report that recommends updates to products, policies and training to improve an organization’s security.
+
+-> Risk Management:
+Risk management is the formal process of continuously identifying and assessing risk in an effort to reduce the impact of threats and vulnerabilities. You cannot eliminate risk completely but you can determine acceptable levels by weighing up the impact of a threat with the cost of implementing controls to mitigate it. The cost of a control should never be more than the value of the asset you are protecting.
+
+->  Computer Security Incident Response Team (CSIRT)
+
+
+
+An IPS can block or deny traffic based on a positive rule or signature match.
+An IDS scans data against a database of rules or attack signatures, looking for malicious traffic.
+A DLP system is designed to stop sensitive data from being stolen from or escaping a network.
+A SIEM system collects and analyzes security alerts, logs and other real-time and historical data from security devices on the network.

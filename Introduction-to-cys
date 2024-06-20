@@ -91,3 +91,83 @@ Regardless of the type of malware a system has been infected with, there are som
 • programs turning off or reconfiguring themselves
 • emails being sent without your knowledge or consent.
 
+Carrying out brute-force attacks involves the attacker trying several possible combinations in an attempt to guess the password. These attacks usually involve a word-list file — a text file containing a list of words from a dictionary. A program such as Ophcrack, L0phtCrack, THC Hydra, RainbowCrack or Medusa will then try each word and common combinations until it finds a match.
+
+types of attacks: 
+1) Social Engineering : social engineering is the manipulation of people into performing actions or divulging confidential information
+  1- quid pro quo: This is when an attacker requests personal information from a person in exchange for something, like a free gift.
+  2- Tailgating: This is when an attacker quickly follows an authorized person into a secure, physical location.
+  3- Pretexting: This is when an attacker calls an individual and lies to them in an attempt to gain access to privileged data.
+
+2) Denial of Service: Denial-of-Service (DoS) attacks are a type of network attack that is relatively simple to carry out, even by an unskilled attacker. A DoS attack results in some sort of interruption of network service to users, devices or applications.
+  1- overwhelming quantity of traffic: sending enormous amount of data at a rate which the system cant handle.
+  2- maliciously formatted packets: packets are collection data that flows between a source and a receiver computer or application over a network. when a maliciously formatted packet is sent the receiver will be unable to handle it.
+
+3) distributed DOS: Dos which originates from multiple cooordinated spources.
+An attacker builds a network (botnet) of infected hosts called zombies, which are controlled by handler systems.
+The zombie computers will constantly scan and infect more hosts, creating more and more zombies.
+When ready, the hacker will instruct the handler systems to make the botnet of zombies carry out a DDoS attack.
+
+4) Botnet:
+A bot computer is typically infected by visiting an unsafe website or opening an infected email attachment or infected media file. A botnet is a group of bots, connected through the Internet, that can be controlled by a malicious individual or group. It can have tens of thousands, or even hundreds of thousands, of bots that are typically controlled through a command and control server.
+
+1. Infected bots try to communicate with a command and control host on the Internet.
+2. The Cisco Firewall botnet filter is a feature that detects traffic coming from devices infected with the malicious botnet code.
+3. The cloud-based Cisco Security Intelligence Operations (SIO) service pushes down updated filters to the firewall that match traffic from new known botnets.
+4. Alerts go out to Cisco's internal security team to notify them about the infected devices that are generating malicious traffic so that they can prevent, mitigate and remedy these.
+
+5) On paths Attacks:
+On-path attackers intercept or modify communications between two devices, such as a web browser and a web server, either to collect information from or to impersonate one of the devices.
+  1- man-in-the-middle attack
+  2- mobile main in the middle
+
+6) SEO poisioning:
+s about improving an organization’s website so that it gains greater visibility in search engine results.
+
+7) Wi-Fi Password Cracking
+
+8) Password Attacks
+  1- password spraying:This technique attempts to gain access to a system by ‘spraying’ a few commonly used passwords across a large number of accounts. For example, a cybercriminal uses 'Password123' with many usernames before trying again with a second commonly-used password, such as ‘qwerty.’
+  2- dictionary attack: A hacker systematically tries every word in a dictionary or a list of commonly used words as a password in an attempt to break into a password-protected account.
+  3- bruteforce attack: The simplest and most commonly used way of gaining access to a password-protected site, brute-force attacks see an attacker using all possible combinations of letters, numbers and symbols in the password space until they get it right.
+  4- ranbow attack: Passwords in a computer system are not stored as plain text, but as hashed values (numerical values that uniquely identify data). A rainbow table is a large dictionary of precomputed hashes and the passwords from which they were calculated.
+  5- traffic interception: Plain text or unencrypted passwords can be easily read by other humans and machines by intercepting communications.
+If you store a password in clear, readable text, anyone who has access to your account or device, whether authorized or unauthorized, can read it.
+  6- Advanced Persistent Threats:
+Attackers also achieve infiltration through advanced persistent threats (APTs) — a multi-phase, long term, stealthy and advanced operation against a specific target. For these reasons, an individual attacker often lacks the skill set, resources or persistence to perform APTs.
+Due to the complexity and the skill level required to carry out such an attack, an APT is usually well-funded and typically targets organizations or nations for business or political reasons.
+Its main purpose is to deploy customized malware on one or more of the target’s systems and remain there undetected.
+
+-> Security vulnerablities:
+Security vulnerabilities are any kind of software or hardware defect. A program written to take advantage of a known vulnerability is referred to as an exploit. A cybercriminal can use an exploit against a vulnerability to carry out an attack, the goal of which is to gain access to a system, the data it hosts or a specific resource.
+
+  1) Hardware Vulnerabilities
+Hardware vulnerabilities are most often the result of hardware design flaws. For example, the type of memory called RAM basically consists of lots of capacitors (a component which can hold an electrical charge) installed very close to one another. However, it was soon discovered that, due to their close proximity, changes applied to one of these capacitors could influence neighbor capacitors. Based on this design flaw, an exploit called Rowhammer was created. By repeatedly accessing (hammering) a row of memory, the Rowhammer exploit triggers electrical interferences that eventually corrupt the data stored inside the RAM.
+
+  2) Meltdown and Spectre
+Google security researchers discovered Meltdown and Spectre, two hardware vulnerabilities that affect almost all central processing units (CPUs) released since 1995 within desktops, laptops, servers, smartphones, smart devices and cloud services.
+
+Attackers exploiting these vulnerabilities can read all memory from a given system (Meltdown), as well as data handled by other applications (Spectre). The Meltdown and Spectre vulnerability exploitations are referred to as side-channel attacks (information is gained from the implementation of a computer system). They have the ability to compromise large amounts of memory data because the attacks can be run multiple times on a system with very little possibility of a crash or other error.
+
+icon of a shield melting down, to represent Meltdown, and icon of a ghost, to represent Spectre
+
+  3) Software Vulnerabilities
+Software vulnerabilities are usually introduced by errors in the operating system or application code.
+    1-Buffers are memory areas allocated to an application. A vulnerability occurs when data is written beyond the limits of a buffer. By changing data beyond the boundaries of a buffer, the application can access memory allocated to other processes. This can lead to a system crash or data compromise, or provide escalation of privileges.
+
+    2- Non-validated input: Programs often require data input, but this incoming data could have malicious content, designed to force the program to behave in an unintended way.
+
+For example, consider a program that receives an image for processing. A malicious user could craft an image file with invalid image dimensions. The maliciously crafted dimensions could force the program to allocate buffers of incorrect and unexpected sizes.
+    3-RACE condition: This vulnerability describes a situation where the output of an event depends on ordered or timed outputs. A race condition becomes a source of vulnerability when the required ordered or timed events do not occur in the correct order or at the proper time.
+
+    4- weakness in seciurity practices:
+Systems and sensitive data can be protected through techniques such as authentication, authorization and encryption. Developers should stick to using security techniques and libraries that have already been created, tested and verified and should not attempt to create their own security algorithms. These will only likely introduce new vulnerabilities
+
+    5- Access control:
+Access control is the process of controlling who does what and ranges from managing physical access to equipment to dictating who has access to a resource, such as a file, and what they can do with it, such as read or change the file. Many security vulnerabilities are created by the improper use of access controls.
+
+-> Protecting Your Computing Devices
+1) turn on firewall:
+You should use at least one type of firewall (either a software firewall or a hardware firewall on a router) to protect your device from unauthorized access. The firewall should be turned on and constantly updated to prevent hackers from accessing your personal or organization data.
+2) antivirus and antispyware:
+Malicious software, such as viruses and spyware, are designed to gain unauthorized access to your computer and your data. Once installed, viruses can destroy your data and slow down your computer. They can even take over your computer and broadcast spam emails using your account. Spyware can monitor your online activities, collect your personal information or produce unwanted pop-up ads on your web browser while you are online.

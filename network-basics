@@ -1,1 +1,15 @@
+4 types of local networks
+1) small home networks
+2) SOHO networks
+3) medu=ium to large networks
+4) world wide networks
 
+There are three common methods of signal transmission used in networks:
+
+Electrical signals - Transmission is achieved by representing data as electrical pulses on copper wire.
+Optical signals - Transmission is achieved by converting the electrical signals into light pulses.
+Wireless signals - Transmission is achieved by using infrared, microwave, or radio waves through the air.
+
+bandwidth is capacity of medium to carry data
+
+throughput: throughput is the measure of the transfer of bits across the media over a given period of time. However, due to a number of factors, throughput does not usually match the specified bandwidth. M

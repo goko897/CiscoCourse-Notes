@@ -1,0 +1,37 @@
+CLI hot keys 
+The IOS CLI provides hot keys and shortcuts that make configuring, monitoring, and troubleshooting easier.
+
+Commands and keywords can be shortened to the minimum number of characters that identify a unique selection. For example, the configure command can be shortened to conf because configure is the only command that begins with conf. An even shorter version, con, will not work because more than one command begins with con. Keywords can also be shortened.
+
+The table lists keystrokes to enhance command line editing.
+
+Table caption
+Keystroke	Description
+Tab	Completes a partial command name entry.
+Backspace	Erases the character to the left of the cursor.
+Ctrl+D	Erases the character at the cursor.
+Ctrl+K	Erases all characters from the cursor to the end of the command line.
+Esc D	Erases all characters from the cursor to the end of the word.
+Ctrl+U or Ctrl+X	Erases all characters from the cursor back to the beginning of the command line.
+Ctrl+W	Erases the word to the left of the cursor.
+Ctrl+A	Moves the cursor to the beginning of the line.
+Left Arrowor Ctrl+B	Moves the cursor one character to the left.
+Esc B	Moves the cursor back one word to the left.
+Esc F	Moves the cursor forward one word to the right.
+Right Arrowor Ctrl+F	Moves the cursor one character to the right.
+Ctrl+E	Moves the cursor to the end of command line.
+Up Arrowor Ctrl+P	Recalls the previous command in the history buffer, beginning with the most recent command.
+Down Arrowor Ctrl+N	Goes to the next line in the the history buffer.
+Ctrl+R or Ctrl+I or Ctrl+L	Redisplays the system prompt and command line after a console message is received.
+
+Configure Passwords
+When you initially connect to a device, you are in user EXEC mode. This mode is secured using the console.
+
+To secure user EXEC mode access, enter line console configuration mode using the line console 0 global configuration command, as shown in the example. The zero is used to represent the first (and in most cases the only) console interface. Next, specify the user EXEC mode password using the password password command. Finally, enable user EXEC access using the login command.
+
+Sw-Floor-1# configure terminal
+Sw-Floor-1(config)# line console 0
+Sw-Floor-1(config-line)# password cisco
+Sw-Floor-1(config-line)# login
+Sw-Floor-1(config-line)# end
+Sw-Floor-1#
